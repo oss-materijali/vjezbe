@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="vjezba_5.css">
+
+</head>
+
+<body>
+
+    <form id="personal_information_form">
+        <table>
+            <tr>
+                <td rowspan="2" id="name_cell">
+                    <label for="name">Ime:</label>
+                    <input type="text" placeholder="Ime">
+                </td>
+                <td rowspan="2" id="surname_cell">
+                    <label for="surname">Prezime:</label>
+                    <input type="text" placeholder="Prezime">
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birth_date">Datum Rodenja:</label>
+                    <input type="date">
+                </td>
+                <td>
+                    <label for="residence">Mjesto Stanovanja:</label>
+                    <input type="text" placeholder="Mjesto">
+                </td>
+                <td></td>
+                <td>
+                    <p>Spol: </p>
+                    <input type="radio" name="gender">
+                    <label for="male">Musko</label>
+                    <br>
+                    <input type="radio" name="gender">
+                    <label for="female">Zensko</label>
+                </td>
+            </tr>
+            <tr id="button_cell">
+                <td colspan="4">
+                    <button form="personal_information_form" type="reset">Ponovi</button>
+                    <button form="personal_information_form" type="submit">Potvrdi</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

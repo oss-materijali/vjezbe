@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+td {
+    border: 1px solid red;
+
+    padding: 1.5rem;
+
+    height: 10rem;
+    width: 10rem;
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+table input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+#button_cell button {
+    height: 80%;
+    width: 30%;
+}
+button[type="reset"]{
+    float: left;
+    margin-left: 10%;
+}
+button[type="submit"]{
+    float: right;
+    margin-right: 10%;
+}

@@ -1,0 +1,70 @@
+/* Vjezba 3: */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background: rgba(0, 100, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  font-weight: 750;
+}
+
+p:nth-of-type(2) {
+  text-transform: capitalize;
+  font-family: monospace;
+}
+
+ol ul {
+  list-style-type: square;
+}
+
+li>ul>li>ol {
+  color: #FFFFFF;
+}
+
+li:hover {
+  font-size: 1.2em;
+  transition-duration: 500ms;
+  cursor: zoom-in;
+}
+
+ol[start] {
+  width: fit-content;
+  display: flexbox;
+  background-color: #777777;
+}
+
+li,
+ol,
+ul {
+  transition-duration: 200ms;
+}
+
+ol {
+  color: #780940;
+}
+
+ul {
+  color: #101FA0;
+}
+
+/* Vjezba 2: */
+
+#prvi_naslov {
+  color: DarkSlateBlue;
+}
+
+.paragraf {
+  color: rgb(30, 0, 100);
+}
+
+img {
+  width: 7.5rem;
+  height: 7.5rem;
+}

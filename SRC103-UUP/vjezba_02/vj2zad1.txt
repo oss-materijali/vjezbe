@@ -1,0 +1,19 @@
+Python 3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.19.0 -- An enhanced Interactive Python.
+
+In [1]: print("Hello World!")
+Hello World!
+
+In [2]: print('Hello World!')
+Hello World!
+
+In [3]: print(Hello World!) 
+  File "<ipython-input-3-3ecf694b5ee5>", line 1
+    print(Hello World!)
+                ^
+SyntaxError: invalid syntax
+
+
+In [4]: 

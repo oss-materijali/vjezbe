@@ -1,0 +1,20 @@
+Python 3.11.9 | packaged by conda-forge | (main, Apr 19 2024, 18:27:10) [MSC v.1938 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.27.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: a=int(input("a: "))
+a: 20
+
+In [2]: b=int(input("b: "))
+b: 30
+
+In [3]: c=int(input("c: "))
+c: 40
+
+In [4]: s=(a+b+c)/3
+
+In [5]: print("Aritmeticka sredina:", s)
+Aritmeticka sredina: 30.0
+
+In [6]: 

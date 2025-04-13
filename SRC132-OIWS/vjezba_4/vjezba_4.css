@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p, ul, li{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #a4a7db;
+}
+
+ul {
+    font-size: 2rem;
+    list-style-type: none;
+    padding-top: 3vh;
+    padding-left: 5vw;
+}
+
+.vjezba{
+    font-size: 1.5em;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+.vjezba:last-of-type{
+    padding-left: 10vw;
+}
+
+div {
+    max-width: 100%;
+    width: auto;
+}
+
+.header div {
+    display: inline-block;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p{
+    font-size: 5.5em;
+    word-spacing: 0.3em;
+    transition: 2000ms;
+}
+
+.school_name>p{
+    line-height: 10vh;
+    margin: 0;
+    font-size: 4em;
+}
+
+.school_name_container {
+    width: 50%;
+    text-align: center;
+}
+
+.icon_container {
+    width: 30%;
+    float: right;
+}
+
+img[src="icon.png"] {
+    height: 8vh;
+    margin-top: 1vh;
+    float: right;
+    margin-right: 5vw;
+    border-radius: 100%;
+}
+
+.header {
+    height: 10vh;
+    width: auto;
+
+    background-color: #b2cbdb;
+    color: #022436;
+}
+
+.content {
+    height: 70vh;
+    width: auto;
+
+    background-color: #fdf0d5;
+    color: #691111;
+}
+
+.footer {
+    height: 20vh;
+
+    background-color: #003049;
+    color: #d5d7ff;
+}
+
+.content>p:hover{
+    cursor: move;
+    color: red;
+}

@@ -1,0 +1,25 @@
+Uvod ? programiranje 1.olokv?j 2023/4,- Grupa B
+Ime prezime
+1. Napisati program koj od korisnika ?ita brojeve.
+brojeve dok god je avaki upisani broj djeljiv sa erethoogam dita
+upisanim
+2. Napisati program koji od korisnika ?ita (neparnu) visinu slova
+zvjezdicama ispisuje slovo F.
+3. Napisati funkciju koja kao parametar prima broj vra?a zbroj
+prve i zadnje znamenke broja.
+4. Napisati rekurzivnu funkciju koja ra?una potenciju broja 2 (bez
+upotrebe ** operatora) za neku pozitivnu, cjelobrojnu potenciju p.
+brojem
+Napomene: programi funkcije koje predate moraju raditi kao sto
+je zadano u zadatku. Bodova za k?d koji ne radi po zadatku U
+principu ne?e biti. Svaki zadatak je potrebno i obraniti da bi bio
+priznat. Naro?ito pazite na terminologiju (vratiti, ispisati,
+dobiva, u?itava..). Da bi se polo?ilo ispit/kolokvij potrebno je
+rije?iti najmanje dva zadatka. Za polaganje ispita morate imati
+index ili neki identifikacijski dokument. Mobiteli moraju biti
+isklju?eni.
+Svi zadaci se odnose na idu?e ishode u?enja:
+IU3: odabrati osnovne programske elemente za samostalnu izradu jednostavnijih programa ili dijelova programa
+14: odrediti ukazati na gre?ke u programu
+IU5: predlo?iti nova rje?enja za programske probleme ili unaprijediti postoje?i programski k?d
+1U6: izabrati in?enjerski pristup u rje?avanju problema, polaze?i od usvojenih znanja

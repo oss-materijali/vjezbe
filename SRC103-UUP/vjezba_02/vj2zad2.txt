@@ -1,0 +1,46 @@
+Python 3.11.9 | packaged by conda-forge | (main, Apr 19 2024, 18:27:10) [MSC v.1938 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.27.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 10+2
+Out[1]: 12
+
+In [2]: 10*2+30
+Out[2]: 50
+
+In [3]: (1+2+3+4)*5*6
+Out[3]: 300
+
+In [4]: 2**3
+Out[4]: 8
+
+In [5]: 2**10
+Out[5]: 1024
+
+In [6]: a=5
+
+In [7]: b=6
+
+In [8]: a+b**2
+Out[8]: 41
+
+In [9]: (a+b)**2
+Out[9]: 121
+
+In [10]: (2*3-1)/10
+Out[10]: 0.5
+
+In [11]: a == b
+Out[11]: False
+
+In [12]: b == 6
+Out[12]: True
+
+In [13]: a==b+1
+Out[13]: False
+
+In [14]: a+1==b
+Out[14]: True
+
+In [15]: 

@@ -1,0 +1,32 @@
+Uvod u programiranje 1.kolokvij 2023/4. Grupa A
+Ime prezime:
+1. Napisati program koji od korisnika ?ita dva po dva broja,
+ukupno 20 brojeva. Svaka dva broja predstavljaju rezultat nekog
+natjecanja  mogu biti (1,0), (0,1) ili (0.5, 0.5). Ako uneseni brojevi
+nisu ispravni, program ispisuje gre?ku i tra?i ponovan unos. Na
+kraju program ispisuje ukupan zbroj prvih i ukupan zbroj drugih
+brojeva.
+zvjezdicama ispisuje slovo H. 
+3. Napisati funkciju koja ?ita dva po dva broja dok god korisnik ne
+ijedan
+upise jedan negatiunkoia Cin pozitivni brol. Funkcija nakon toge
+vra?a ta dva broja.
+4 Napisati program koji od korisnika ?ita (neparnu) visinu slova i
+zvjezdicama ispisuje slovo V.
+2. Napisati program koji od korisnika ?ita (neparnu) visinu slova
+a
+Ca
+Napomene: programi i funkcije koje predate moraju raditi kao sto
+je zadano u zadatku. Bodova za k?d koji ne radi po zadatku u
+principu ne?e biti. Svaki zadatak je potrebno i obraniti da bi bio
+priznat. Naro?ito pazite na terminologiju (vratiti, ispisati,
+dobiva, u?itava..). Da bi Se polo?ilo ispit/kolokvij potrebno je
+rijesiti najmanje dva zadatka. Za polaganje ispita morate imati
+index ili neki identifikacijski dokument. Mobiteli moraju biti
+isklju?eni.
+Svi zadaci se odnose na idu?e ishode u?enja:
+lU3: odabrati osnovne programske elemente za samostalnu izradu jednostavnijih programa ili dijelova programa
+C
+1U4: odrediti  ukazati na greske u programu
+I5: predlo?iti nova rje?enja za programske probleme ili unaprijediti postoje?i programski k?d
+1U6: izabrat? in?enjerski pristup u rje?avanju problema, polaze?i od usvojenih znanja

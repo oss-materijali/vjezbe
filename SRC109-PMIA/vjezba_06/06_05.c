@@ -10,10 +10,10 @@ izbaci sve samoglasnike iz njega.
 Primjer: "Popokatepetl" postaje "Ppktptl".
 */
 
-// challenge: vrati isti array
+// izazov: vrati isti array
 
 int is_vowel(char n);
-char *remove_vowels(char str[]);
+void remove_vowels(char str[]);
 
 int main(void) {
   char word[] = "Popokatepetl";
@@ -25,8 +25,10 @@ int main(void) {
   return 0;
 }
 
-char *remove_vowels(char str[]) {
+void remove_vowels(char str[]) {
   char *temp = (char *)calloc(strlen(str), sizeof(char));
+  if (!temp) exit(2);
+
   int temp_iter = 0;
   for (int i = 0; i < strlen(str); i++)
     if (!is_vowel(str[i])) {
@@ -36,8 +38,6 @@ char *remove_vowels(char str[]) {
 
   strcpy(str, temp);
   free(temp);
-
-  return str;
 }
 
 int is_vowel(char n) {

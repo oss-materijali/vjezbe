@@ -7,9 +7,13 @@
 tj. funkciju koja kopira jedan string u drugi.
 */
 
-char *impl_strcpy(char *s); // original solution for the exercise
-char *another_impl_strcpy(char *s); // my own, using array logic instead
-// both do the same thing
+// original solution for the exercise (copies until/and end of str: '\0')
+char *impl_strcpy(char *s);
+
+// my own, using array logic instead (copies until end of allocated memory)
+char *another_impl_strcpy(char *s);
+
+// both do pretty much the same thing
 
 int main(void) {
   char str[] = "PMA";

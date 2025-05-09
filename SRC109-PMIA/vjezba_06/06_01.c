@@ -10,7 +10,7 @@ Memoriju za niz alocirati dinamički.
 
 void print_arr(int a[], int size);
 int *remove_duplicate(int a[], int b[], int size_a, int size_b, int *size_c);
-int is_duplicate(int n, int arr[], int arr_size);
+int is_value_in_array(int n, int arr[], int arr_size);
 
 int main(void) {
   int arr_a[4] = {2, 4, 6, 8};
@@ -36,28 +36,22 @@ int *remove_duplicate(int a[], int b[], int size_a, int size_b, int *size_c) {
 
   int c_iter = 0;
 
-  for (int i = 0; i < size_a; i++) {
-    if (!is_duplicate(a[i], b, size_b)) {
-      c[c_iter] = a[i];
-      c_iter++;
-    }
-  }
+  for (int i = 0; i < size_a; i++)
+    c[c_iter++] = a[i];
 
-  for (int i = 0; i < size_b; i++) {
-    if (!is_duplicate(b[i], a, size_a)) {
-      c[c_iter] = b[i];
-      c_iter++;
-    }
-  }
+  for (int i = 0; i < size_b; i++)
+    if (!is_value_in_array(b[i], c, c_iter))
+      c[c_iter++] = b[i];
 
   // cast into a smaller array
   int *smaller_c = (int *)realloc(c, (c_iter * sizeof(int)));
-  *size_c = c_iter;
+  if (!smaller_c) return NULL;
 
+  *size_c = c_iter;
   return smaller_c;
 }
 
-int is_duplicate(int n, int arr[], int arr_size) {
+int is_value_in_array(int n, int arr[], int arr_size) {
   for (int i = 0; i < arr_size; i++)
     if (n == arr[i])
       return 1;

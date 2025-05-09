@@ -2,8 +2,8 @@
 #include <string.h>
 
 /*
-4. Napisati funkciju koja ispituje da li su
-dvije rijeci
+4. Napisati funkciju koja
+ispituje da li su dvije rijeci
 anagrami (jedna riječ je permutirana druga rijec).
 
 Primjer: rijeci "vatra", "trava" i "vrata" su anagrami.
@@ -16,7 +16,7 @@ void sort_string(char str[]);
 int main(void) {
   char word_a[] = "vatra";
   char word_b[] = "trava";
-  char word_c[] = "trava";
+  char word_c[] = "vrata";
   printf("%s --> %s [%d]\n", word_a, word_b, is_anagram(word_a, word_b));
   printf("%s --> %s [%d]\n", word_b, word_c, is_anagram(word_b, word_c));
 

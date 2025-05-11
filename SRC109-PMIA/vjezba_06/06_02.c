@@ -44,12 +44,9 @@ int *fancy_calloc(int n) {
   `j` and `i` modified to match the exercise example
   */
   int j = 2;
-  for (int i = 1; i < n; i++) {
-    if (i % 2 == 0) {
-      arr[i] = j;
-      j++;
-    }
-  }
+  for (int i = 1; i < n; i++)
+    if (i % 2 == 0)
+      arr[i] = j++;
 
   return arr;
 }

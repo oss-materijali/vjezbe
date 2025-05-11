@@ -31,10 +31,8 @@ void remove_vowels(char str[]) {
 
   int temp_iter = 0;
   for (int i = 0; i < strlen(str); i++)
-    if (!is_vowel(str[i])) {
-      temp[temp_iter] = str[i];
-      temp_iter++;
-    }
+    if (!is_vowel(str[i]))
+      temp[temp_iter++] = str[i];
 
   strcpy(str, temp);
   free(temp);

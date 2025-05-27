@@ -9,6 +9,10 @@ Napisati funkciju koja vraća studenta s najvećim prosjekom.
 U glavnom programu učitati podatke za n studenata.
 */
 
+/* NOTE: i do not know what "U glavnom programu učitaj podatke za n..." means,
+ * so i have one type of solution where the user inputs the data in 2.c, and
+ * in 4.c the data is already parsed and in the program (less of a hassle) */
+
 #define STUDENT_BUF 50
 
 typedef struct {
@@ -37,6 +41,7 @@ int main(void) {
     fgets(students[i].surname, STUDENT_BUF, stdin);
     printf("\tprosjek: ");
     scanf(" %f", &students[i].gpa);
+    /* remove fgets whitespace */
     students[i].name[strcspn(students[i].name, "\n")] = '\0';
     students[i].surname[strcspn(students[i].surname, "\n")] = '\0';
   }
@@ -51,11 +56,11 @@ int main(void) {
   return 0;
 }
 
-Student highest_scoring(Student students[], int size){
+Student highest_scoring(Student students[], int size) {
   Student high = students[0];
   int high_i = 0;
   for (int i = 0; i < size; i++) {
-    if(high.gpa < students[i].gpa )
+    if (high.gpa < students[i].gpa)
       high_i = i;
   }
   high = students[high_i];

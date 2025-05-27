@@ -1,0 +1,17 @@
+Prvi Zadatak
+Napisati funkciju koja vraća broj riči u rečenici i broj samoglasnika.
+
+Drugi zadatak
+Definiraj strukturu student koja sadrži ime, prezime, prosjek.
+Napisati funkciju koja vraća studenta s najvećim prosjekom.
+U glavnom programu učitati podatke za n studenata.
+
+Treći zadatak
+Napisati funkciju koja provjerava je li niz znakova može biti OIB.
+Da li ima jedanaest znakova i jesu li svi broj.
+
+Četvrti zadatak
+Definiraj strukturu knjiga sa sljedećim članovima:
+naslov, autor, godina izdanja
+Napisati funkciju koja vraća sve knjige starije od određene godine.
+U glavnom programu učitaj podatke za n knjiga i učitaj godinu.
